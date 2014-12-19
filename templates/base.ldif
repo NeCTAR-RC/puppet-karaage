@@ -1,0 +1,14 @@
+dn: ou=policies,<%= @dn %>
+objectClass: organizationalUnit
+
+dn: ou=Accounts,<%= @dn %>
+objectClass: organizationalUnit
+
+dn: ou=Groups,<%= @dn %>
+objectClass: organizationalUnit
+
+dn: cn=default,ou=policies,<%= @dn %>
+objectClass: top
+objectClass: device
+objectClass: pwdPolicy
+pwdAttribute: userPassword
