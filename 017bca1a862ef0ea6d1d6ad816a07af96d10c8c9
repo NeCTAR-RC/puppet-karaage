@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af78d9a_459b8ec9",
+        "filename": "manifests/repo.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-01-05T03:01:35Z",
+      "side": 1,
+      "message": "class not imported in init class?",
+      "range": {
+        "startLine": 3,
+        "startChar": 6,
+        "endLine": 3,
+        "endChar": 19
+      },
+      "revId": "017bca1a862ef0ea6d1d6ad816a07af96d10c8c9",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af78d9a_e55efa11",
+        "filename": "manifests/repo.pp",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-01-05T03:01:35Z",
+      "side": 1,
+      "message": "Still need precise?",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 40
+      },
+      "revId": "017bca1a862ef0ea6d1d6ad816a07af96d10c8c9",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
