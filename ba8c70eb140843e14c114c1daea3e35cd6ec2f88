@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa2559ec_2a057fc2",
+        "filename": "files/kguser-apache.conf",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2015-01-18T23:54:08Z",
+      "side": 1,
+      "message": "These aren\u0027t required in 2.4 right? And I don\u0027t think you\u0027re aiming for 2.2 support because it probably barfs on the Require all granted?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 18
+      },
+      "revId": "ba8c70eb140843e14c114c1daea3e35cd6ec2f88",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa2559ec_aaf84fc5",
+        "filename": "manifests/admin/git.pp",
+        "patchSetId": 7
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2015-01-18T23:54:08Z",
+      "side": 1,
+      "message": "Do we need to install the pip package somewhere?",
+      "range": {
+        "startLine": 27,
+        "startChar": 16,
+        "endLine": 27,
+        "endChar": 19
+      },
+      "revId": "ba8c70eb140843e14c114c1daea3e35cd6ec2f88",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
