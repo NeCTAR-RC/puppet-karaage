@@ -51,6 +51,6 @@ class karaage::karaage::git (
     command => 'pip install -e .',
     unless  => "pip freeze | grep '-e ${repo_uri}'",
     cwd     => $clone_path,
-    require => vcsrepo[$clone_path],
+    require => Vcsrepo[$clone_path],
   }
 }
